@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/6.6.96/css/materialdesignicons.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <nav>
+            <ul class="first">
+                <li class="dashboard"><a href="#dashboard"><i class="mdi mdi-view-dashboard"></i>Dashboard</a></li>
+            </ul>
+            <ul class ="second">
+                <li><a href="#home"><i class="mdi mdi-home"></i>Home</a></li>
+                <li><a href="#profile"><i class="mdi mdi-card-account-details-outline"></i>Profile</a></li>
+                <li><a href="#messages"><i class="mdi mdi-message"></i>Messages</a></li>
+                <li><a href="#history"><i class="mdi mdi-clock"></i>History</a></li>
+                <li><a href="#tasks"><i class="mdi mdi-note-multiple"></i>Tasks</a></li>
+                <li><a href="#communities"><i class="mdi mdi-account-group"></i>Communities</a></li>
+            </ul>
+            <ul class ="third">
+                <li><a href="#settings"><i class="mdi mdi-cog"></i>Settings</a></li>
+                <li><a href="#support"><i class="mdi mdi-help-box"></i>Support</a></li>
+                <li><a href="#privacy"><i class="mdi mdi-shield-check"></i>Privacy</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="top">
+            <div class="search">
+                <form action="/search" method="get">
+                    <button type="submit" class="submit-btn">
+                        <i class="mdi mdi-magnify"></i>
+                    </button>
+                    <input type="search" name="query">
+                </form>
+                <i class="mdi mdi-bell-ring-outline"></i>
+                <img class="firstpic" src="cat banana.jpeg" alt="cartoon cat dressed as banana">
+                <div> <strong>Catlinh Le</strong></div>
+            </div>
+            <div class="banner">
+                <img class="secondpic" src="cat banana.jpeg" alt="cartoon cat dressed as banana">
+                <div class="intro"> 
+                    <div class="intro-top">Hi there,</div>
+                    <div class="intro-bottom">Catlinh Le (@catlinh)</div>
+                </div>
+                <div>
+                    <button class="bluebuttons">New</button>
+                    <button class="bluebuttons">Upload</button>
+                    <button class="bluebuttons">Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="left">
+                <div class="header">
+                    Your Projects
+                </div>
+                <div class="left-body">
+                    <div class="rowone">
+                        <div class="project">Super Cool Project</div>
+                        <div class="project">Impossible App</div>
+                        <div class="project">Ad Blocker</div>
+                    </div>
+                    <div class="rowtwo">
+                        <div class="project">Super Cool Project</div>
+                        <div class="project">Super Cool Project</div>
+                        <div class="project">Super Cool Project</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="header">Announcements</div>
+                <div class="announcements"></div>
+                <div class="header">Trending</div>
+                <div class="trending"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
